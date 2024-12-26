@@ -15,3 +15,6 @@ Uso de git bisect:
 4. Git irá mostrando commits intermedios
 5. Probar cada versión y marcar como good/bad
 6. Al encontrar el commit problemático: git bisect reset
+
+Hooks utilizados:
+- pre-commit: Verifica la sintaxis del código Python antes de cada commit
