@@ -7,6 +7,9 @@ def resta(a, b):
 def multiplicacion(a, b):
     return a * b
 
+def division(a, b):
+    return a / b
+
 if __name__ == "__main__":
     print(suma(5, 3))
     print(resta(10, 4))
